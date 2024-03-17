@@ -1,4 +1,4 @@
-FROM quay.io/maherzubair/sigma-md
+FROM quay.io/maherzubair/sigma-md:latest
 RUN git clone https://github.com/j98fn4mf9/bot /root/j98fn4mf9/bot
 WORKDIR /root/j98fn4mf9/bot
 RUN npm install
